@@ -1,0 +1,90 @@
+.trait{text-align: center;
+	width:400px;
+	height:300px;
+	margin:10px;
+	position:relative;}
+section img {height:200px;}
+
+#indication{text-align: center;
+	font-size: 0.8em;
+	margin-bottom: 0px;}
+section{margin-top: 0px;}
+
+.autonome {font-size:40px;
+	background-image:url(./ordi2.png);
+	background-size:130px;
+	width:130px;height:92px;
+	position:absolute;}
+.bulle1{visibility:hidden;
+	position:relative;
+	top:55%;left:50%;
+	transform:translate(-50%, -50%);
+	width:90px;
+	height:50px;
+	font-size:14px;
+	margin:0;
+	line-height: 0.95;}
+#rech{top:50px;left:30px;}
+#surm{top:100px;left:260px;}
+#cap{top:200px;left:70px;}
+.autonome:hover .bulle1{ visibility:visible;}
+
+.curieux {font-size:40px;
+	background-image:url(./loupe.png);
+	background-size:100px;
+	width:100px;height:110px;
+	position:absolute;
+	transform: rotate(15deg);}
+.bulle2{visibility:hidden;
+	position:relative;
+	top:52%;left:50%;
+	transform:translate(-50%, -50%);
+	width:90px;
+	height:50px;
+	font-size:14px;
+	margin:0;
+	line-height: 0.95;}
+#disc{top:100px;left:10px;}
+#nouv{top:30px;left:230px;}
+#prog{top:170px;left:290px;}
+.curieux:hover .bulle2{ visibility:visible;}
+
+.perseverance {font-size:40px;
+	background-image:url(./engrenage.png);
+	background-size:105px;
+	width:105px;height:105px;
+	position:absolute;
+	transform: rotate(-15deg);}
+.bulle3{visibility:hidden;
+	position:relative;
+	top:55%;left:50%;
+	transform:translate(-50%, -50%);
+	width:100px;
+	height:25px;
+	font-size:14px;
+	margin:0;
+	line-height: 0.95;}
+#perf{top:100px;left:10px;}
+#epre{top:30px;left:230px;}
+#fier{top:170px;left:290px;}
+.perseverance:hover .bulle3{ visibility:visible;}
+
+.organise {font-size:40px;
+	background-image:url(./pendule.png);
+	background-size:110px;
+	width:110px;height:110px;
+	position:absolute;
+	transform: rotate(5deg);}
+.bulle4{visibility:hidden;
+	position:relative;
+	top:52%;left:50%;
+	transform:translate(-50%, -50%);
+	width:90px;
+	height:25px;
+	font-size:14px;
+	margin:0;
+	line-height: 0.95;}
+#plan{top:180px;left:15px;}
+#compt{top:30px;left:220px;}
+#gere{top:165px;left:285px;}
+.organise:hover .bulle4{ visibility:visible;}

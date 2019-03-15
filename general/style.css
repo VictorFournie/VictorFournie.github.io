@@ -1,0 +1,62 @@
+body {	font-family: "Avenir Light", sans-serif;
+	background-color: #7aabf0;}
+
+header{text-align: center;}
+header h2 {font-family:"Avenir Next Ultra Light", serif;
+	font-size:22px;}
+header h1{	font-family:"Verdana", serif;
+	border: 5px black ridge;
+	display:flex;
+    justify-content: center;
+    width:600px;
+	margin:auto;
+	margin-bottom:12px;
+	font-size:30px;}
+.laser{ width:50%;
+	margin:auto;
+	border-radius: 10px;
+	box-shadow: 3px 5px 2px 1px #404040;}
+
+
+nav ul{display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    list-style-type: none;
+	font-size: 1.4em;
+	line-height: 0.2em;
+	margin-bottom:30px;
+	padding-bottom: 3px;
+    text-decoration: none;
+    font-family:"Snell Roundhand", serif;}
+nav li{margin:10px;}
+nav a {text-decoration: none;
+	color: #181818;	}
+nav a:hover{    color: #760001;
+    border-bottom: 2px solid #760001;}
+
+
+section{background-color: #8cf;}
+#conteneur { border: 2px solid black;
+	display : flex;
+	justify-content: space-around;
+	align-items: stretch;
+	flex-wrap: wrap;
+	align-content: space-around;
+	vertical-align: middle;}
+section a {text-decoration: none;
+	color:#000088;}
+section a:hover{color:#760001;}
+a:active{	position    : relative;
+            top     : 1px;
+        	right:-2px;}
+
+footer {font-size: 12px;
+	border:dashed 1px grey;
+	width:300px;
+	display:flex;
+	flex-direction: column; 
+    justify-content: center;
+	margin:auto;
+	margin-top:12px;
+	text-align:center;
+	background-color: #8cf;}

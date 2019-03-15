@@ -1,0 +1,19 @@
+.exp{padding:12px;
+	margin: 20px;
+	width: 400px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.2;
+	background-color: #8abbc0;
+	box-shadow: 3px 5px 2px 1px #404040;
+	transform: rotate(2deg);
+	background-image:url(./punaise2.png), url(./note.jpg);
+	background-position: 15px 10px, left top;
+	background-repeat:no-repeat;}
+
+.categ {font-style:italic;
+	font-size:0.8em;}
+
+section h3 {font-size: 1.6em;
+	line-height: 0.2em;}
+section h4 {font-size:1.3em;}

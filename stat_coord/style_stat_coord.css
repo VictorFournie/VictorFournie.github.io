@@ -1,0 +1,66 @@
+#conteneur {position:relative;
+	margin:auto;
+	background-image:url(./bureau2.jpg);
+	background-size:100%;
+	width: 50vw;height:50vw;
+	min-width:600px;min-height:600px;
+	text-align:center;
+	font-family:"Apple Chancery", sans-serif;}
+section div{margin:0px;}
+
+#linkedin {position:absolute;
+	left:22%;top:29%;
+	width:19%;height:12%;
+	font-size:0.8em;}
+#linkedin img {width:40%;}
+
+#permis {position:absolute;
+	left:51%;top:19.5%;
+	width:12%;height:15%;}
+#permis img {width:80%;
+	position:relative;
+	top:5%;left:5%;}
+#permis span {position:absolute;
+	left:10%;top:70%;}
+
+#numero {font-family:"Bodoni 72 Smallcaps", sans-serif;
+	position:absolute;
+	left:9%;top:48%;
+	width:16%;
+	transform:rotate(-30deg);
+	font-size:1.05em;}
+#numero img {width:40%;height:40%;}
+
+#lieu {font-family:"Herculanum", sans-serif;
+	position:absolute;
+	left:40%;top:60%;
+	width:30%;height:16.5%;
+	min-width:150px;min-height:82px;
+	transform:rotate(-10deg);
+	background-image:url(./lettre.jpeg);
+	background-size: 100%;
+
+	box-shadow: -2px 0px 1px 1px #606060;}
+#lieu p {position :absolute;
+	left:36%;top:32%;}
+
+#age {position:absolute;
+	left:76%;top:11%;
+	width:16%;
+	transform:rotate(6deg);
+	line-height:0.9em;
+	font-size:0.8em;}
+#age img {width:35%;height:35%;
+	margin-bottom:3	px;}
+
+#nationalite {font-family: serif;
+	position:absolute;
+	left:23%;top:14%;
+	width:16%;}
+#nationalite img {width:50%;height:50%;}
+
+#email {position:absolute;
+	left:17%;top:83%;
+	width:40%;
+	transform:rotate(8deg);}
+

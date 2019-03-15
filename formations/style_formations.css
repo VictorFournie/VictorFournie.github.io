@@ -1,0 +1,27 @@
+.ecole {position:relative;
+	margin: 20px;
+	width: 40vw;height:28.6vw;
+	min-width:450px;min-height:321px;
+	text-align: center;
+	vertical-align: middle;
+	box-shadow: 2px 3px 1px 1px #404040;
+	background: url(./tableau2.jpg);
+	background-size:100%;
+	border:1px solid grey;
+}
+
+.craie {width:40%;
+	margin-top:8%;
+	opacity:0.9;}
+section p, section h3 {width:90%;
+	margin:auto;
+	font-weight:bold;
+	color:rgb(230,230,230);
+	margin-top:0.5em;}
+section p span {font-weight:normal;
+	font-style:italic;}
+.carte{position:absolute;
+	top:0px;left:0px;
+	width:20%;
+	margin-top:6%;
+	margin-left:6%;}

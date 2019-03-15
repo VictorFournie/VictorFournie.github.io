@@ -1,0 +1,43 @@
+.boite{margin: 20px;
+	width: 500px;
+	height:500px;
+	min-width:500px;
+	padding-top:0%;
+	text-align: center;
+	position:relative;}
+
+section img  {position:absolute;
+	top:0;left:0;
+	height:500px;
+	width:500px;
+	border-radius:50%;
+	box-shadow: 3px 5px 2px 1px #404040;
+	border : gray solid 2px;
+	opacity:0.5;
+	margin:0px;
+	z-index:2}
+
+
+section ul{	margin:0px;
+	padding:0px;
+	list-style-type :none;
+	z-index:3;
+	position:absolute;
+	left:50%;top:50%;
+	transform:translate(-50%,-50%);
+	width:100%;}
+section li {padding-bottom:0.4em;}
+	
+section h3 {font-size: 2em;
+	margin:0px;
+	padding:0px;
+	z-index:3;
+	position:absolute;
+	left:50%;top:50%;
+	transform:translate(-50%,-50%);
+	width:100%;	}
+
+section .boite3{
+	font-size:0.9em;
+}
+
