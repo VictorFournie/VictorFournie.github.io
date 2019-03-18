@@ -21,6 +21,13 @@ nav a {text-decoration: none;
 nav a:hover{    color: #760001;
     border-bottom: 2px solid #760001;}
 
+aside {font-size: 12px;
+	width:300px;
+	float:right;
+	margin-top:12px;
+	text-align:right;
+	margin:auto;}
+
 footer {font-size: 12px;
 	border:dashed 1px grey;
 	width:300px;
